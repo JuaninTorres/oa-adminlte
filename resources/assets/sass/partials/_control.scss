@@ -1,0 +1,13 @@
+aside {
+  &.control-sidebar {
+    .tab-content {
+      .tab-pane {
+        .form-group {
+          a {
+            margin-top: 0.5em;
+          }
+        }
+      }
+    }
+  }
+}

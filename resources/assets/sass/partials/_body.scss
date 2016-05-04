@@ -1,0 +1,15 @@
+table {
+  td {
+    &.vertical-middle {
+      vertical-align: middle !important;
+    }
+  }
+  .widget-user-2 {
+    .widget-user-header {
+      padding: 0;
+      .widget-user-image > img {
+        width: 60px;
+      }
+    }
+  }
+}
