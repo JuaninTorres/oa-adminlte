@@ -11,7 +11,15 @@
 @section('content')
     <div class="row">
         <div class="col-lg-4 col-xs-12">
-            @include('pages.partials.small-boxes')
+            <div class="box box-success">
+                <div class="box-header with-border">
+                    <h3 class="box-title">Small Boxes</h3>
+                </div>{{-- /.box-header --}}
+                <div class="box-body">
+                    @include('pages.partials.small-boxes')
+
+                </div>{{-- /.box-body --}}
+            </div>{{-- /.box --}}
         </div>
         <div class="col-lg-8">
                 <div class="box box-primary animated fadeIn">
