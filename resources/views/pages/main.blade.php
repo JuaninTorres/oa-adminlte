@@ -10,7 +10,7 @@
 
 @section('content')
     <div class="row">
-        <div class="col-lg-4 col-xs-12">
+        <div class="col-xs-12 col-lg-4">
             <div class="box box-success">
                 <div class="box-header with-border">
                     <h3 class="box-title">Small Boxes</h3>
@@ -21,7 +21,7 @@
                 </div>{{-- /.box-body --}}
             </div>{{-- /.box --}}
         </div>
-        <div class="col-lg-8">
+        <div class="col-xs-12 col-lg-8">
                 <div class="box box-primary animated fadeIn">
                     <div class="box-header with-border">
                         <h3 class="box-title">Avance Procesos Activos</h3>
