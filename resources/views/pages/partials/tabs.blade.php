@@ -40,7 +40,7 @@
             sheets containing Lorem Ipsum passages, and more recently with desktop publishing software
             like Aldus PageMaker including versions of Lorem Ipsum.
         </div>
-        <div class="tab-pane active" id="tab_4">
+        <div class="tab-pane table-responsive active" id="tab_4">
             <table class="table table-striped">
                 <thead>
                 <tr>
