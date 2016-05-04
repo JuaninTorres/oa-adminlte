@@ -9,6 +9,14 @@ bower install
 php artisan migrate --seed
 ```
 
+### Autenticación con Google
+En el archivo de las variables de entorno, es necesario dejar seteadas las variables
+```
+GOOGLE_APP_ID
+GOOGLE_APP_SECRET
+``` 
+Y habilitar la URL `http://servidor/auth/google/callback` para que se haga el callback desde Google.
+
 ## Personalizaciones
 ### Hojas de estilo
 Se hicieron utilizando [SASS](http://sass-lang.com) y los archivos fuentes están en la ruta `resources/assets/sass`
