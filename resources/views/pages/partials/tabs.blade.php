@@ -40,11 +40,11 @@
             sheets containing Lorem Ipsum passages, and more recently with desktop publishing software
             like Aldus PageMaker including versions of Lorem Ipsum.
         </div>
-        <div class="tab-pane table-responsive active" id="tab_4">
-            <table class="table table-striped">
+        <div class="tab-pane  active" id="tab_4">
+            <table class="table table-striped hidden-xs hidden-sm visible-md visible-lg">
                 <thead>
                 <tr>
-                    <th>Evaluados</th>
+                    <th style="width: 100px">Evaluados</th>
                     <th>Reconoce sistemáticamente las actitudes positivas del entorno OA</th>
                     <th>Reconoce sistemáticamente las actitudes positivas del entorno OA</th>
                     <th>Reconoce sistemáticamente las actitudes positivas del entorno OA</th>
@@ -74,6 +74,9 @@
                 @endforeach
                 </tbody>
             </table>
+            <div class="alert alert-warning hidden-md hidden-lg visible-xs visible-sm">
+            	<strong><i class="fa fa-exclamation-triangle"></i> Atención:</strong> Esta interfaz no está optimizada para dispositivos de esta resolución, por favor ingrese desde un dispositivo que permita utilizar una resolución mayor.
+            </div>
         </div>
         <!-- /.tab-pane -->
     </div>

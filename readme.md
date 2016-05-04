@@ -1,6 +1,7 @@
 # Demo de AdminLTE para OA
 Este pequeño demo de [AdminLTE](https://almsaeedstudio.com/preview), ha sido creado usando laravel para así facilitar la integración de de todas las librerías necesarias.
 Todas estas dependencias están declaradas en el archivo **bower.json**, donde también se especifica la versión usada.
+Aquí hacemos uso de unas interfases de **bootstrap-slider**, pero que al ser utilizadas en conjunto con una **table-responsive** en dispositivos pequeños, se obtienen resultados no deseados. Para evitar que se despliegue se utilizaron las clases de ayuda para ocultarla y en su lugar mostrar un mensaje que advertencia.
 
 ## Instalación
 ```bash
